@@ -4,7 +4,7 @@ import React from "react";
 
 export const ABout = () => {
   return (
-    <div className=" w-full flex flex-col rounded-2xl gap-5 p-4 lg:p-7 bg-slate-800 shadow-2xl">
+    <div className=" w-full flex flex-col rounded-2xl gap-8 p-4 lg:p-7 bg-slate-800 shadow-2xl">
       <div className=" w-full flex flex-col gap-3">
         <p className=" capitalize text-2xl font-bold">About Me</p>
         <div className=" w-full flex flex-col gap-3">
@@ -22,7 +22,7 @@ export const ABout = () => {
       </div>
       <div className=" w-full flex flex-col gap-3">
         <p className=" text-2xl font-bold">Languages and Tools</p>
-        <div className=" w-full flex flex-wrap justify-around gap-2 lg:gap-1 p-2 bg-base-200 shadow-2xl rounded-2xl">
+        <div className=" w-full flex flex-wrap justify-center gap-5 lg:gap-1 p-2 bg-base-200 shadow-2xl rounded-2xl">
           <div
             data-tip="html"
             className="tooltip tooltip-bottom w-12 p-2 shadow-2xl bg-base-100 rounded-2xl">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Raleway } from "next/font/google";
 import "./globals.css";
+import QuerysProvider from "./QuerysProvider";
 
 const RalewayFont = Raleway({
   variable: "--font-raleway",
@@ -22,7 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" data-theme="dark">
-      <body className={`${RalewayFont.variable} antialiased`}>{children}</body>
+      <body className={`${RalewayFont.variable} antialiased`}>
+        <QuerysProvider>{children}</QuerysProvider>
+      </body>
     </html>
   );
 }

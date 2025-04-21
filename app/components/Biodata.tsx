@@ -21,7 +21,7 @@ export const Biodata = () => {
           </div>
           <div className=" flex flex-col ">
             <p className=" text-gray-400">Email</p>
-            <p className="">19frmn@gmail.com</p>
+            <p className="">19.firmann@gmail.com</p>
           </div>
         </div>
         {/* no hp */}

@@ -51,13 +51,25 @@ export const Work = () => {
           </div>
         </a>
         <a
+          href="https://sneckersku-frmnsyh.vercel.app/"
+          className=" bg-base-200 cursor-pointer rounded-3xl shadow-2xl w-[24rem] flex p-3 flex-col gap-2">
+          <div className=" w-full rounded-3xl bg-blue-300 flex items-center justify-center">
+            <img src="/project/sneckersku.png" className=" w-56" alt="" />
+          </div>
+          <div className=" w-full p-2">
+            <p className=" text-xl font-semibold">SneckersKu.</p>
+          </div>
+        </a>
+        <a
           href="https://life-port.vercel.app/"
           className=" bg-base-200 cursor-pointer rounded-3xl shadow-2xl w-[24rem] flex p-3 flex-col gap-2">
           <div className=" w-full rounded-3xl bg-blue-300 flex items-center justify-center">
-            <img src="/project/sneckers.png" className=" w-56" alt="" />
+            <img src="/project/sistemdwika.png" className=" w-56" alt="" />
           </div>
           <div className=" w-full p-2">
-            <p className=" text-xl font-semibold">Sneckers808.</p>
+            <p className=" text-xl font-semibold">
+              Sistem Manajemen Jamaah Dwika Travel
+            </p>
           </div>
         </a>
       </div>

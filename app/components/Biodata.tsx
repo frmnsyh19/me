@@ -7,7 +7,11 @@ export const Biodata = () => {
   return (
     <div className=" w-full lg:w-[25rem] rounded-2xl bg-slate-800 shadow-2xl p-4 flex flex-col gap-4">
       <div className=" w-full flex justify-center items-center">
-        <img src="/porto.png" className=" bg-cover rounded-2xl" alt="" />
+        <img
+          src="/porto.png"
+          className=" bg-cover rounded-2xl w-full h-80 object-cover"
+          alt=""
+        />
       </div>
       <div className=" w-full flex justify-center flex-col gap-1 items-center ">
         <p className=" text-2xl font-semibold">Firmansyah</p>

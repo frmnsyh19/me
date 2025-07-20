@@ -35,7 +35,7 @@ export const Resume = () => {
           </div>
           <div className="w-full border border-slate-100 flex flex-col p-3 rounded-2xl gap-2">
             <p className=" text-slate-100 text-xl">PT. Duta Wisata Kautsar</p>
-            <p className=" text-xl text-slate-100">Freelance Staff</p>
+            <p className=" text-xl text-slate-100">Freelance Web Developer</p>
             <p className=" text-xl text-gray-500">November 2024 - Present</p>
           </div>
           <div className="w-full border border-slate-100 flex flex-col p-3 rounded-2xl gap-2">

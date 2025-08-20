@@ -51,7 +51,7 @@ export const Work = () => {
           </div>
         </a>
         <a
-          href="https://sneckersku-frmnsyh.vercel.app/"
+          href="https://sneckers808.vercel.app"
           className=" bg-base-200 cursor-pointer rounded-3xl shadow-2xl w-[24rem] flex p-3 flex-col gap-2">
           <div className=" w-full rounded-3xl bg-blue-300 flex items-center justify-center">
             <img src="/project/sneckersku.png" className=" w-56" alt="" />

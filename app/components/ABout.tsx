@@ -79,7 +79,7 @@ export const ABout = () => {
             <img src="/skill/nextjs.png" className=" w-full" alt="" />
           </div>
           <div
-            className=" w-12 p-2 shadow-2xl bg-base-100 tooltip tooltip-bottom rounded-2xl"
+            className=" w-12 p-2 shadow-2xl flex justify-center items-center bg-base-100 tooltip tooltip-bottom rounded-2xl"
             data-tip="expressjs">
             <img src="/skill/express.png" className=" w-full" alt="" />
           </div>

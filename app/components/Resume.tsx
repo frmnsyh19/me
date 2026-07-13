@@ -34,14 +34,21 @@ export const Resume = () => {
             <p className=" text-2xl font-bold">Experience</p>
           </div>
           <div className="w-full border border-slate-100 flex flex-col p-3 rounded-2xl gap-2">
-            <p className=" text-slate-100 text-xl">PT. Duta Wisata Kautsar</p>
+            <div className="w-100 flex flex-row gap-2 items-center">
+              <img src="/skill/dwikalogo.jpg" className=" w-11" alt="" />
+              <p className=" text-slate-100 text-xl">PT. Duta Wisata Kautsar</p>
+            </div>
+
             <p className=" text-xl text-slate-100">Freelance Web Developer</p>
-            <p className=" text-xl text-gray-500">November 2024 - Present</p>
+            <p className=" text-xl text-gray-500">November 2024 - Juli 2025</p>
           </div>
           <div className="w-full border border-slate-100 flex flex-col p-3 rounded-2xl gap-2">
-            <p className=" text-slate-100 text-xl">Fresh Chicken & Fish</p>
-            <p className=" text-xl text-slate-100">Grapich Designer</p>
-            <p className=" text-xl text-gray-500">2021 - 2022</p>
+            <div className="w-100 flex flex-row gap-2 items-center">
+              <img src="/skill/marunilogo.jpg" className=" w-11" alt="" />
+              <p className=" text-slate-100 text-xl">PT. Maruni Daya Sakti</p>
+            </div>
+            <p className=" text-xl text-slate-100">IT Programmer</p>
+            <p className=" text-xl text-gray-500">September 2025 - Juli 2026</p>
           </div>
         </div>
       </div>
@@ -50,12 +57,16 @@ export const Resume = () => {
         <div className=" w-full flex justify-rounded flex-wrap gap-3 p-1">
           <div className="badge badge-lg bg-slate-600 p-4 text-lg">Laravel</div>
           <div className="badge badge-lg bg-slate-600 p-4 text-lg">
+            Codigneter
+          </div>
+          <div className="badge badge-lg bg-slate-600 p-4 text-lg">
             React Js
           </div>
           <div className="badge badge-lg bg-slate-600 p-4 text-lg">Next Js</div>
           <div className="badge badge-lg bg-slate-600 p-4 text-lg">
             Express Js
           </div>
+          <div className="badge badge-lg bg-slate-600 p-4 text-lg">Golang</div>
           <div className="badge badge-lg bg-slate-600 p-4 text-lg">
             Bootstrap
           </div>

@@ -69,9 +69,19 @@ export const ABout = () => {
             <img src="/skill/laravel.png" className=" w-full" alt="" />
           </div>
           <div
+            className=" w-12 p-2 shadow-2xl bg-base-100 rounded-2xl tooltip tooltip-bottom flex justify-center items-center"
+            data-tip="CodeIgniter">
+            <img src="/skill/CI3png.png" className=" w-full" alt="" />
+          </div>
+          <div
             className=" tooltip tooltip-bottom w-12 p-2 shadow-2xl bg-base-100 rounded-2xl"
             data-tip="reactjs">
             <img src="/skill/react.png" className=" w-full" alt="" />
+          </div>
+          <div
+            className=" w-12 p-2 shadow-2xl flex justify-center items-center bg-base-100 tooltip tooltip-bottom rounded-2xl"
+            data-tip="expressjs">
+            <img src="/skill/express.png" className=" w-full" alt="" />
           </div>
           <div
             className=" tooltip tooltip-bottom w-12 p-2 shadow-2xl bg-base-100 rounded-2xl"
@@ -79,9 +89,9 @@ export const ABout = () => {
             <img src="/skill/nextjs.png" className=" w-full" alt="" />
           </div>
           <div
-            className=" w-12 p-2 shadow-2xl flex justify-center items-center bg-base-100 tooltip tooltip-bottom rounded-2xl"
-            data-tip="expressjs">
-            <img src="/skill/express.png" className=" w-full" alt="" />
+            className=" tooltip tooltip-bottom w-12 p-2 shadow-2xl bg-base-100 rounded-2xl flex justify-center items-center"
+            data-tip="golang">
+            <img src="/skill/golangnew.png" className=" w-full" alt="" />
           </div>
           <div
             className=" w-12 p-2 shadow-2xl bg-base-100 rounded-2xl tooltip tooltip-bottom"

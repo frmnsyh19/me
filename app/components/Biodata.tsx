@@ -10,14 +10,10 @@ export const ABout = () => {
         <p className=" capitalize text-2xl font-bold">About Me</p>
         <div className=" w-full flex flex-col gap-3">
           <span>
-            {`I am a passionate and detail-oriented Web Developer with a Bachelor's degree in Information Systems from Universitas Nusa Mandiri. I specialize in building modern, responsive, and dynamic web applications using technologies such as Laravel, Next.js, and React.js. `}
+            {`Passionate IT Programmer with 2 years of professional experience and a Bachelor's degree in Information Systems from Universitas Nusa Mandiri. Specializes deeply in the Laravel, Next.js, and React.js ecosystem.`}
           </span>
           <span className="">
-            My academic background combined with hands-on experience has
-            equipped me with a solid understanding of both front-end and
-            back-end development. I am committed to writing clean, efficient
-            code and continuously improving my skills to stay current with the
-            latest trends and best practices in web development.
+            {`Accustomed to handling the full web application development lifecycle independently or collaboratively, focusing on clean code efficiency, scalability, and an optimal user experience.`}
           </span>
         </div>
       </div>

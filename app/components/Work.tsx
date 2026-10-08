@@ -85,7 +85,7 @@ export const Resume = () => {
         download
         className=" mt-3 btn btn-outline  btn-lg w-full rounded-full  text-xl">
         <MdOutlineFileDownload className=" text-3xl" />
-        Downlaod CV
+        Download CV
       </a>
     </div>
   );
